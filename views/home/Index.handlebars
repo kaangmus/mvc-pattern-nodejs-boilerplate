@@ -1,0 +1,39 @@
+
+
+
+  
+
+<div class="container">
+
+      		<div class="col s12 ">
+      		
+      		<div class="container">
+      
+      			<table>
+        <thead>
+          <tr>
+              <th data-field="id">ID</th>
+              <th data-field="name">Word</th>
+              <th data-field="name">Edit</th>
+              <th data-field="name">Hapus</th>
+
+          </tr>
+        </thead>
+
+        <tbody>
+        	  {{#each data}}
+          <tr>
+            <td>{{id}}</td>
+            <td>{{nama}}</td>
+            <td><a href="/edit/{{id}}" class="button is-danger">Edit</a></td>
+            <td><a href="/delete/{{id}}" class="button is-danger">Delete</a></td>
+          </tr>
+          <tr>{{/each}}
+
+        </tbody>
+      </table>
+      
+      	
+      		</div>
+    	</div>
+    </div> <!--container-->

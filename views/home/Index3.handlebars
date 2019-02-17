@@ -1,0 +1,14 @@
+
+{{#each social}}
+  <span>{{site}} : {{name}}</span>
+{{/each}}
+
+<ul>
+   {{#each arr}}
+    <li>
+      <span>{{@index}}</span>
+      <span>unescaped: {{{this}}} vs. </span>
+      <span>escaped: {{this}}</span>
+    </li>
+  {{/each}}
+</ul>

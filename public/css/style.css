@@ -1,0 +1,28 @@
+
+nav { 
+background-color: #2196f3 blue !important;  /*! importan berfungsi untuk lebih mengutamakan nav */
+}
+.menu-header .dropdown-content{
+	margin-top: 64px !important;
+	border-bottom: 3px solid #2196f3 blue;
+}
+
+.menu-header .dropdown-content li a{
+	width: 200px !important;
+	border-color: #2196f3 blue !important;
+}
+
+
+.menu-header .dropdown-content li a{
+	color: white !important;
+	background-color: 12px !important;
+}
+
+ /*! dummy adalah clas pembagian colum */
+.dummy-class{
+	background-color: 
+
+}
+.content-header{
+	margin-top: 50px !important;
+}

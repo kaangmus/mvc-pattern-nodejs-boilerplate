@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="js/jquery.js"> </script> 
+	<script type="text/javascript">
+	$("document").ready(function(){		// adalah pembukaan jquery
+
+	$(".fadeout").click(function(){   // fungsi click, jika fadeout di klik maka jalankan #kotak
+	$("#kotak").fadeOut("slow")
+	});
+
+	$(".fadein").click(function(){   // fungsi click, jika fadeoIn di klik maka jalankan #kotak
+	$("#kotak").fadeIn("slow")  
+	});
+
+	$(".fadeo3").click(function(){  // fungsi click, jika fadeo3 di klik maka jalankan #kotak
+	$("#kotak").fadeTo("slow",0.3)
+	});
+	});
+
+	</script>
+<style type="text/css">
+	
+	#kotak {
+		width:250px;
+		height: 180px;
+		background: yellow;
+		border: 2px solid black; 
+	}
+
+</style>
+</head>
+
+<body>
+<div id="kotak"></div><br/>
+<button class="fadeout">Fade out</button>
+<button class="fadein">Fade In</button>
+<button class="fadeo3">Fade to 3</button>
+</body>
+</html>
