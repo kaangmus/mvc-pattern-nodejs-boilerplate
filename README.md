@@ -1,4 +1,4 @@
 # simple-mvc-pattern-nodejs-mysql
 
-git clone 
+git clone https://github.com/msmusli/mvc-pattern-nodejs-boilerplate.git
 npm install
