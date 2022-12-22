@@ -35,7 +35,7 @@
         "helmet": "^3.12.1",
         "https": "^1.0.0",
         "image-to-ascii": "^3.0.11",
-        "jsonwebtoken": "^8.3.0",
+        "jsonwebtoken": "^9.0.0",
         "jwt-async": "^1.1.2",
         "jwt-simple": "^0.5.1",
         "lodash": "^4.17.10",
